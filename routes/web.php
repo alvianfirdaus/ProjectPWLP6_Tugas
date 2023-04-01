@@ -23,7 +23,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
+// Menampilkan Profile 1
 Route::get('/profile1', [ProfileController::class, 'profile1'])->name('profile1');
+// Menampilkan Profile 2
 Route::get('/profile2', [ProfileController::class, 'profile2'])->name('profile2');
 
 Route::get('/pengalaman', [PengalamanController::class, 'pengalaman'])->name('kuliah');

@@ -24,6 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        // Dashboard
         $user = Auth::user();
         return view('mahasiswas.dashboard',['user'=>$user]);
     }
