@@ -15,6 +15,7 @@ class PostPengalaman extends Seeder
      */
     public function run()
     {
+        // Profile 1 Alvian
         $data = [[
             'nama' => 'ALVIAN NUR FIRDAUS',
             'nama_kejuaraan' => 'KMIPN - IV',
@@ -23,6 +24,7 @@ class PostPengalaman extends Seeder
             'subtotal' => 'Rp 400',
             'cerita' => 'Saya Alvian Nur Firdaus, teman teman dan keluarga saya sering memanggil saya Alvian selama saya berkuliah di Polinema, saya sangat senang dan bangga karena bisa menuntut ilmu dan mendapat berbagai macam relasi teman dan hal paling berkesan yaitu dapat mengikuti perlombaan KMIPN 4 di politeknik Negeri Batam'
         ],
+        // Profile 2 Ega
         [
             'nama' => 'M EGA RAMA FERNANDA',
             'nama_kejuaraan' => 'INTERCOMP',
