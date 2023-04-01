@@ -119,6 +119,8 @@
 
                 <p class="text-muted">
                   <table border ="2" width="100%">
+                  
+                  <!-- Penambahan Data -->
                   @foreach($dataprofil as $pr)
                   <tr>
                     <th width="300px">Nama Lengkap</th><th>{{$pr -> nama_lengkap}}</th>

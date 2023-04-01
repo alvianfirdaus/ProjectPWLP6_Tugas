@@ -15,6 +15,7 @@ class PostSeeder extends Seeder
      */
     public function run()
     {
+        // Profile 1 Alvian
         $data = [[
             'nama_lengkap' => 'ALVIAN NUR FIRDAUS',
             'nama' => 'Alvian',
@@ -28,6 +29,7 @@ class PostSeeder extends Seeder
             'skil' => 'videography',
             'sosmed' => '@alvian7968'
         ],
+        // Profile 2 Ega
         [
             'nama_lengkap' => 'M EGA RAMA FERNANDA',
             'nama' => 'Ega',
